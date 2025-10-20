@@ -6,7 +6,7 @@
 1. Clona este repositorio o descárgalo:
    ```bash
    git clone https://github.com/Nayden4/buscador-wikipedia-audax.git
-   cd buscador-wikipedia-audax
+   cd audax_prueba_técnica
    ```
 
 2. Copia la carpeta en tu entorno local (por ejemplo `htdocs` de XAMPP).
