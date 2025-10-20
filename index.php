@@ -24,12 +24,26 @@
   <main class="container flex-grow-1 p-5">
     <!-- Seccion de búsqueda -->
     <section id="buscador" class="mb-5">
-      <div class="input-group input-group-lg">
-        <input type="text" id="termino" class="form-control" placeholder="Escribe un término para buscar..." required>
-        <button id="btnBuscar" class="btn btn-success">Buscar</button>
-        <button id="btnLimpiar" class="btn btn-outline-secondary">Limpiar</button>
-      </div>
+      <form class="row g-2 align-items-stretch">
+        <div class="col-12 col-md-7 col-lg-8">
+          <input type="text" id="termino" class="form-control form-control-lg"
+            placeholder="Escribe un término para buscar..." required>
+        </div>
+
+        <div class="col-6 col-md-3 col-lg-2 d-grid">
+          <button id="btnBuscar" type="button" class="btn btn-success btn-lg w-100">
+            Buscar
+          </button>
+        </div>
+
+        <div class="col-6 col-md-2 col-lg-2 d-grid">
+          <button id="btnLimpiar" type="button" class="btn btn-outline-secondary btn-lg w-100">
+            Limpiar
+          </button>
+        </div>
+      </form>
     </section>
+
 
 
     <!-- Seccion de resultados -->
